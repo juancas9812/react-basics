@@ -1,3 +1,15 @@
+# react-basics
+This repository follows part of the course [
+50+ HOURS REACT.JS 19 MONSTER CLASS](https://www.youtube.com/watch?v=M9O5AjEFzKw)
+until new project needs to be created.
+
+
+Progress:
+
+2025-05-14: [24:35](https://youtu.be/M9O5AjEFzKw?t=1475)
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
