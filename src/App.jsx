@@ -1,12 +1,16 @@
-import Person from "./components/Person";
-import Product from "./components/Product";
-
+import Weather from "./components/Weather";
+import UserStatus from "./components/UserStatus";
+import Greeting from "./components/Greeting";
 
 const App = () => {
   return (
     <div>
-      <Person name="Juan" age={26}/>
-      <Product name="Apple" price={2}/>
+      <Weather temperature={12} />
+      <UserStatus loggedIn={true} isAdmin={false} />
+      <UserStatus loggedIn={true} isAdmin={true} />
+      <UserStatus loggedIn={false} isAdmin={true} />
+      <Greeting timeOfDay="morning" />
+      <Greeting timeOfDay="evening" />
     </div>
   )
 }
