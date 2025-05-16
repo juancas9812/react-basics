@@ -1,9 +1,8 @@
 const Greeting = ({timeOfDay}) => {
-  return (
-    <div>
-      Good {timeOfDay === 'morning' ? 'morning' : 'afternoon'}!
-    </div>
-  )
+  return timeOfDay === 'morning' ?
+    (<div>Good morning!</div>)
+    :
+    (<div>Good afternoon!</div>)
 }
 
 export default Greeting;
