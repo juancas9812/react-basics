@@ -15,3 +15,17 @@ export const counterReducer = (state, action) => {
   };
   throw Error(`Unknown action: ${action.type}`);
 }
+
+export const inputReducer = (state, action) => {
+  switch (action.type) {
+    case 'increment':
+      return {count: state.count + action.payload};
+    
+    case 'decrement':
+      return {count: state.count - action.payload};
+    
+    case 'reset':
+      return {count: 0};
+  };
+  throw Error(`Unknown action: ${action.type}`);
+}

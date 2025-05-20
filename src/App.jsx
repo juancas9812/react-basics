@@ -1,4 +1,4 @@
-import {Counter1, Counter2} from './components/Counter'
+import {Counter1, Counter2, Counter3} from './components/Counter'
 
 
 
@@ -7,6 +7,7 @@ const App = () => {
     <div>
       <Counter1 />
       <Counter2 />
+      <Counter3 />
     </div>
   )
 }
