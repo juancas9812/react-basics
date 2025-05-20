@@ -1,14 +1,14 @@
-import { UserProvider } from "./UserContext";
-import UserProfile from "./components/UserProfile";
-import UpdateUser from "./components/UpdateUser";
+import {Counter1, Counter2} from './components/Counter'
+
+
 
 const App = () => {
   return (
-    <UserProvider>
-      <UserProfile />
-      <UpdateUser />
-    </UserProvider>
-  );
-};
+    <div>
+      <Counter1 />
+      <Counter2 />
+    </div>
+  )
+}
 
-export default App;
+export default App
